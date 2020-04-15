@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=RandomRoomGenerator
+comment0.text=\r\n\ This\ class\ ia\ part\ of\ the\ "LIMBO"\ application.\r\n\ "LIMBO"\ is\ a\ very\ simple\ text\ based\ adventure\ game.\r\n\ \r\n\ This\ class\ is\ to\ generate\ random\ aspects\ of\ the\ game.\r\n\ Current\ generates\ a\ random\ valid\ exit\ for\ a\ specfic\ room\ and\ a\ random\ room\ from\ a\ root\ room.\r\n\r\n\ @author\ Areeb\ Hamad\ Mohammed\r\n\ @version\ 2019.23.11\r\n
+comment1.params=
+comment1.target=RandomRoomGenerator()
+comment1.text=\r\n\ Creates\ a\ new\ RandomNumberGenerator\r\n
+comment2.params=currentRoom
+comment2.target=Room\ generateExit(Room)
+comment2.text=\r\n\ This\ method\ generates\ a\ valid\ random\ exit\ for\ a\ room\r\n\ @param\ currentRoom\ The\ room\ for\ which\ to\ get\ an\ exit\ from\r\n\ @return\ The\ new\ Room\ to\ go\ to\r\n
+comment3.params=currentRoom
+comment3.target=Room\ generateRoom(Room)
+comment3.text=\r\n\ This\ method\ find\ a\ random\ room\r\n\ @param\ currentRoom\ The\ root\ room\ from\ which\ all\ other\ rooms\ are\ traversed\r\n\ @return\ The\ final\ random\ room\ chosen\r\n
+numComments=4

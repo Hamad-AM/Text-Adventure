@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=ActionEntity
+comment0.text=\r\n\ This\ class\ ia\ part\ of\ the\ "LIMBO"\ application.\r\n\ "LIMBO"\ is\ a\ very\ simple\ text\ based\ adventure\ game.\r\n\ \r\n\ This\ Class\ is\ the\ ActionEntity\ class,\ and\ inherits\ from\ the\ Entity\ class.\r\n\ This\ class\ holds\ the\ fields\ and\ methods\ necessary\ for\ entities\ that\ will\ be\ in\ battles.\r\n\ The\ fields\ and\ data\ are\ the\ weapon\ they\ are\ holding\ on\ to\ and\ their\ hit\ points.\r\n\ \r\n\ @author\ Areeb\ Hamad\ Mohammed\r\n\ @version\ 2019.23.11\r\n
+comment1.params=name\ weight\ maxHP
+comment1.target=ActionEntity(java.lang.String,\ int,\ float)
+comment1.text=\r\n\ Create\ a\ new\ ActioEntity\ and\ sets\ its\ HitPoints\r\n
+comment2.params=
+comment2.target=float\ getMaxHP()
+comment2.text=\r\n\ This\ method\ returns\ the\ Max\ Hit\ Points\ of\ the\ entity\r\n\ @return\ maxHP\ The\ maxmimum\ hitpoints\ as\ a\ float\r\n
+comment3.params=
+comment3.target=float\ getCurrentHP()
+comment3.text=\r\n\ This\ method\ returns\ the\ current\ amount\ of\ hit\ points\ the\ entity\ has\ left\r\n\ @return\ currentHP\ the\ current\ number\ of\ hit\ points\ as\ a\ float\r\n
+comment4.params=addedHP
+comment4.target=void\ setHP(float)
+comment4.text=\r\n\ This\ method\ sets\ the\ hit\ points\ based\ on\ the\ input\ value\r\n\ @param\ addedHP\ The\ number\ of\ hit\ points\ to\ be\ added\ or\ subtracted\ if\ input\ is\ negative\r\n
+comment5.params=weapon
+comment5.target=void\ setWeapon(Weapon)
+comment5.text=\r\n\ This\ method\ sets\ the\ current\ weapon\ of\ the\ entity\r\n\ @param\ weapon\ The\ weapon\ being\ given\ to\ the\ entity\ of\ class\ Weapon\r\n
+comment6.params=
+comment6.target=Weapon\ getWeapon()
+comment6.text=\r\n\ This\ method\ retrieves\ the\ current\ weapon\ the\ entity\ is\ holding\ on\ to\r\n\ @return\ weapon\ The\ weapon\ the\ entity\ has\r\n
+comment7.params=damageDone
+comment7.target=void\ doDamage(float)
+comment7.text=\r\n\ This\ methods\ calculutes\ the\ damage\ done\ to\ the\ entity\r\n\ @param\ damageDone\ The\ number\ of\ hit\ points\ of\ damage\ done\ to\ the\ entity\r\n
+numComments=8

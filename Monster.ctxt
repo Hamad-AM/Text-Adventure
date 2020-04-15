@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Monster
+comment0.text=\r\n\ This\ class\ ia\ part\ of\ the\ "LIMBO"\ application.\r\n\ "LIMBO"\ is\ a\ very\ simple\ text\ based\ adventure\ game.\r\n\ \r\n\ This\ Class\ is\ the\ Monster\ class,\ inherits\ from\ the\ ActionEntity\ class.\r\n\ This\ class\ checks\ if\ the\ monster\ is\ dead\ and\ if\ the\ monster\ is\ in\ the\ same\ room\ as\ the\ player\r\n\ \r\n\ @author\ Areeb\ Hamad\ Mohammed\r\n\ @version\ 2019.23.11\r\n
+comment1.params=name\ description\ maxHP\ weapon
+comment1.target=Monster(java.lang.String,\ java.lang.String,\ float,\ Weapon)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Monster\r\n
+comment2.params=
+comment2.target=boolean\ getIsDead()
+comment2.text=\r\n\ This\ method\ checks\ if\ the\ monster\ is\ dead\r\n\ @return\ true\ if\ the\ monster\ is\ dead\ otherwise\ false\r\n
+comment3.params=
+comment3.target=boolean\ isPlayerInRoom()
+comment3.text=\r\n\ This\ method\ checks\ if\ the\ player\ is\ the\ same\ room\ as\ the\ character\r\n\ @return\ true\ if\ the\ player\ is\ in\ the\ room\r\n
+comment4.params=currentPlayerRoom1
+comment4.target=void\ setCurrentPlayerRoom(Room)
+comment4.text=\r\n\ This\ method\ updates\ hte\ currentPlayers\ position\ in\ the\ character\ class\r\n\ @param\ currentPlayerRoom\r\n
+comment5.params=
+comment5.target=java.lang.String\ getDescription()
+comment5.text=\r\n\ This\ method\ gets\ the\ description\ of\ the\ monster\r\n\ @return\ description\ The\ description\ string\ the\ monster\r\n
+numComments=6

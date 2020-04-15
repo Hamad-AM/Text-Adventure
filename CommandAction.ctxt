@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CommandAction
+comment0.text=\r\n\ This\ class\ ia\ part\ of\ the\ "LIMBO"\ application.\r\n\ "LIMBO"\ is\ a\ very\ simple\ text\ based\ adventure\ game.\r\n\ \r\n\ This\ is\ an\ Interface\ which\ defines\ the\ function\ header\ to\ exectute\ a\ command\r\n\ \r\n\ @author\ Areeb\ Hamad\ Mohammed\r\n\ @version\ 2019.23.11\r\n
+comment1.params=command\ player\ characters\ monsters
+comment1.target=boolean\ execute(Command,\ Player,\ java.util.HashMap,\ java.util.HashMap)
+comment1.text=\r\n\ This\ method\ defines\ the\ command\ execution\r\n\ @param\ command\ The\ command\ inputed\ by\ the\ player\r\n\ @param\ player\ \ The\ player\ object\ to\ access\ the\ players\ data\r\n\ @param\ characters\ The\ characters\ collection\ to\ retrieve\ character\ information\r\n\ @param\ monsters\ \ The\ monsters\ collection\ to\ retrieve\ the\ monsters\ information\r\n\ @return\ true\ if\ the\ player\ wants\ to\ quit,\ false\ if\ the\ game\ is\ to\ be\ completed\r\n
+numComments=2

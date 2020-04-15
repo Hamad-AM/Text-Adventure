@@ -1,0 +1,4 @@
+class - 
+
+Game
+    (1) update the iterator for updating the entities in the game

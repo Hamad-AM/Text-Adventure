@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\r\n\ This\ class\ ia\ part\ of\ the\ "LIMBO"\ application.\r\n\ "LIMBO"\ is\ a\ very\ simple\ text\ based\ adventure\ game.\r\n\ \r\n\ This\ class\ stores\ the\ data\ related\ to\ Items.\ And\ lets\ the\ user\ retrieve\ the\ relavent\ data.\r\n\r\n\ @author\ Areeb\ Hamad\ Mohammed\r\n\ @version\ 2019.23.11\r\n
+comment1.params=name\ canPickup\ weight\ description
+comment1.target=Item(java.lang.String,\ boolean,\ int,\ java.lang.String)
+comment1.text=\r\n\ Creates\ an\ item\ and\ initialises\ its\ fields\r\n\ @param\ name\ The\ name\ of\ the\ object\r\n\ @param\ canPickup\ Whether\ the\ item\ can\ be\ picked\ up\r\n\ @param\ weight\ The\ weight\ of\ the\ item\r\n\ @param\ discription\ The\ discription\ of\ the\ item\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ This\ method\ returns\ the\ items\ name\r\n\ @return\ name\ of\ type\ String\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment3.text=\r\n\ This\ method\ returns\ the\ items\ description\ \r\n\ @return\ desciption\ of\ type\ string\r\n
+comment4.params=
+comment4.target=int\ getWeight()
+comment4.text=\r\n\ This\ method\ returns\ the\ items\ weight\r\n\ @return\ weight\ of\ type\ int\r\n
+comment5.params=
+comment5.target=boolean\ getPickup()
+comment5.text=\r\n\ This\ method\ return\ whether\ or\ not\ the\ item\ can\ be\ picked\ up\r\n\ @return\ canPickup\ true\ if\ item\ can\ be\ picked\ up\r\n
+numComments=6

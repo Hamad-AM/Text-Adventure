@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Weapon
+comment0.text=\r\n\ This\ class\ ia\ part\ of\ the\ "LIMBO"\ application.\r\n\ "LIMBO"\ is\ a\ very\ simple\ text\ based\ adventure\ game.\r\n\ \r\n\ This\ class\ Weapon\ is\ subclass\ that\ inherits\ from\ the\ item\ class.\r\n\ Holds\ the\ information\ for\ the\ amount\ of\ damage\ it\ does,\ and\ the\ all\ weapons\ can\ be\ pickedup\r\n\r\n\ @author\ Areeb\ Hamad\ Mohammed\r\n\ @version\ 2019.23.11\r\n
+comment1.params=name\ weight\ description\ damage\ maxDurability
+comment1.target=Weapon(java.lang.String,\ int,\ java.lang.String,\ float,\ float)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Weapon\r\n
+comment2.params=
+comment2.target=float\ getDamage()
+comment2.text=\r\n\ This\ method\ returns\ the\ amount\ of\ damage\ this\ weapon\ does\r\n\ @return\ the\ number\ of\ hitpoints\ of\ damage\ the\ weapon\ does\r\n
+comment3.params=
+comment3.target=float\ use()
+comment3.text=\r\n\ This\ method\ is\ to\ be\ called\ when\ the\ weapon\ is\ being\ used\r\n\ decreases\ the\ durability\ of\ the\ weapon\ and\ returns\ the\ damage\ to\ be\ done\r\n\ @return\ newDamage\ The\ damage\ dealt\ by\ the\ weapon\ as\ a\ float\r\n
+comment4.params=
+comment4.target=void\ decreaseDurability()
+comment4.text=\r\n\ This\ method\ calculates\ the\ change\ in\ durabilty\r\n
+numComments=5

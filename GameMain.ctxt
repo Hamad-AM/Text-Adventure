@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=GameMain
+comment0.text=\r\n\ This\ class\ ia\ part\ of\ the\ "LIMBO"\ application.\r\n\ "LIMBO"\ is\ a\ very\ simple\ text\ based\ adventure\ game.\r\n\ \r\n\ The\ main\ game\ class\ used\ to\ create\ a\ new\ instance\ of\ a\ game.\r\n\r\n\ @author\ Areeb\ Hamad\ Mohammed\r\n\ @version\ 2019.23.11\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

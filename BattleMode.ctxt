@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=BattleMode
+comment0.text=\r\n\ This\ class\ ia\ part\ of\ the\ "LIMBO"\ application.\r\n\ "LIMBO"\ is\ a\ very\ simple\ text\ based\ adventure\ game.\r\n\ \r\n\ This\ class\ describes\ the\ state\ and\ the\ choices\ are\ made\ in\ a\ battle.\r\n\ \r\n\ A\ battle\ is\ updates\ ever\ time\ a\ command\ is\ inputed,\ in\ which\ the\ player\ completes\ a\ choice\r\n\ and\ a\ choice\ for\ the\ monster\ is\ made.\ A\ battle\ is\ over\ when\ either\ the\ player\ or\ monster\ has\r\n\ went\ below\ 0\ hit\ points.\r\n\r\n\ @author\ Areeb\ Hamad\ Mohammed\r\n\ @version\ 2019.23.11\r\n
+comment1.params=opponent\ player\ monsters
+comment1.target=BattleMode(Monster,\ Player,\ java.util.HashMap)
+comment1.text=\r\n\ Creates\ the\ battle\ and\ initalises\ the\ objects\ for\ the\ battle\r\n
+comment2.params=command
+comment2.target=void\ update(Command)
+comment2.text=\r\n\ The\ method\ controls\ the\ routine\ and\ updates\ the\ state\ of\ the\ battle\r\n\ @param\ command\ The\ command\ input\ by\ player\r\n
+comment3.params=
+comment3.target=void\ startBattleOutput()
+comment3.text=\r\n\ This\ method\ outputs\ the\ information\ needed\ at\ the\ start\ of\ the\ battle\r\n
+comment4.params=
+comment4.target=void\ doOpponentTurn()
+comment4.text=\r\n\ This\ method\ defines\ the\ monsters\ decisions\r\n
+comment5.params=
+comment5.target=void\ printOpponentAttack()
+comment5.text=\r\n\ This\ method\ outputs\ the\ message\ when\ the\ opponent\ attacks\r\n
+comment6.params=
+comment6.target=void\ playerDeath()
+comment6.text=\r\n\ This\ method\ describes\ what\ occurs\ on\ the\ players\ death\r\n\ Currently\ send\ them\ back\ to\ their\ checkpoint\ and\ sets\ their\ HP\ back\ to\ max.\r\n\ As\ well\ as\ sets\ the\ opponenets\ HP\ to\ max.\r\n
+comment7.params=
+comment7.target=boolean\ isOver()
+comment7.text=\r\n\ This\ method\ gets\ if\ the\ game\ is\ over\r\n\ @return\ over\ Returns\ true\ if\ the\ game\ is\ over\ vice\ versa\r\n
+numComments=8

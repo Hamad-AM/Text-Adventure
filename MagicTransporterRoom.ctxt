@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=MagicTransporterRoom
+comment0.text=\r\n\ This\ class\ ia\ part\ of\ the\ "LIMBO"\ application.\r\n\ "LIMBO"\ is\ a\ very\ simple\ text\ based\ adventure\ game.\r\n\ \r\n\ This\ class\ is\ subclass\ that\ inherits\ from\ the\ room\ class.\r\n\ It\ sends\ the\ player\ to\ a\ random\ room\ when\ exited.\r\n\r\n\ @author\ Areeb\ Hamad\ Mohammed\r\n\ @version\ 2019.23.11\r\n
+comment1.params=name\ description
+comment1.target=MagicTransporterRoom(java.lang.String,\ java.lang.String)
+comment2.params=direction
+comment2.target=Room\ getExit(java.lang.String)
+comment2.text=\r\n\ This\ method\ returns\ a\ random\ room\r\n\ @return\ Room\ a\ random\ room\ generated\r\n
+numComments=3
